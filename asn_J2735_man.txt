@@ -1,0 +1,11 @@
+1. mouse07410의 레포지토리를 이용
+
+2. 다운받은 후 install.md의 내용에 따라 빌드 및 설치
+
+3. emaxples/sample.source.J2735 폴더로 이동
+
+4. 상위 폴더에 J2735 asn 문서를 [J2735_201603.asn1] 이름으로 저장.
+
+5. 터미널에서 make 실행.
+	- opt_debug 선언되지 않음 에러 발생 시 MessageFrame.c에 전역변수로 int opt_debug를 선언.
+
